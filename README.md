@@ -12,11 +12,6 @@
 可以在27岁前作为前端开发工程师
 
 学过的编程语言有python
-    单行代码
+单行代码
     print('hello world')
 
-'''
-多行代码
-print('hello world')
-print('hello world')
-'''
