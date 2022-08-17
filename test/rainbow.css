@@ -1,0 +1,78 @@
+*{box-sizing: border-box;}
+.rainbow{
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 200px;
+    overflow: hidden;
+}
+.rainbow div{
+    overflow: hidden;
+}
+
+.rainbow>div{
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 400px;
+    background: red;
+    border-radius: 50%;
+    
+}
+.rainbow>div>div{
+    /* border: 1px solid rgb(255, 145, 0); */
+    background: rgb(255, 145, 0);
+    height: 380px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div{
+    /* border: 1px solid rgb(255, 230, 0); */
+    background: rgb(255, 230, 0);
+    height: 360px;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+.rainbow>div>div>div>div{
+    /* border: 1px solid rgb(81, 255, 0); */
+    background: rgb(81, 255, 0);
+    height: 340px;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+.rainbow>div>div>div>div>div{
+    /* border: 1px solid rgb(0, 255, 179); */
+    background: rgb(0, 255, 179);
+    height: 320px;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+.rainbow>div>div>div>div>div>div{
+    /* border: 1px solid rgb(0, 110, 255); */
+    background: rgb(0, 110, 255);
+    height: 300px;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+.rainbow>div>div>div>div>div>div>div{
+    /* border: 1px solid rgb(183, 0, 255); */
+    background: rgb(183, 0, 255);
+    height: 280px;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+.rainbow>div>div>div>div>div>div>div>div{
+    /* border: 1px solid rgb(255, 255, 255); */
+    background: rgb(255, 255, 255);
+    height: 260px;
+    margin: 10px;
+    border-radius: 50%;
+
+}
