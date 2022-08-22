@@ -16,10 +16,12 @@ ul>li{
     padding: 4px 0.5em;
     line-height: 32px;
 }
-/* ul{
+
+ul{
     /* border: 1px solid green; */
     display: inline-block;
-} */
+} 
+
 img{max-width: 100%;}
 .logo{
     background-color: antiquewhite;
