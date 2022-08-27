@@ -3,11 +3,42 @@
 .container{
     display: flex;
     outline: 1px solid red;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .item{
-    width: 50px;
+    /* width: 50px; */
     height: 50px;
     outline: 1px solid green;
+    
+
+}
+.item:first-child{
+    order: 100;
+    flex-grow: 1;
+
+}
+.item:nth-child(2){
+    order: 2;
+    flex-grow: 2;
+    
+}
+
+.item:nth-child(3){
+    order: 3;
+    flex-grow: 1;
+
+}
+.item:nth-child(4){
+    flex-grow: 1;
+    order: 4;
+
+}
+
+.item:last-child{
+    flex-grow: 1;
+    order: 1;
+
 }

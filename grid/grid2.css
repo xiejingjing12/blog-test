@@ -1,0 +1,33 @@
+*{margin: 0;padding: 0; box-sizing: border-box;outline: 1px solid red;}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "aside main ad"
+    "footer footer footer";
+    min-height: 100vh;
+    grid-template-rows: 60px auto 60px;
+    grid-template-columns: 100px auto 100px;
+}
+
+.container>header{
+    grid-area: header;
+}
+.container>aside{
+    grid-area: aside;
+
+}
+.container>main{
+    grid-area: main;
+
+}
+.container>.ad{
+    grid-area: ad;
+
+}
+.container>footer{
+    grid-area: footer;
+
+}
+
